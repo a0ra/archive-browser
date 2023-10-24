@@ -91,7 +91,7 @@ const Header = React.memo(() => {
                 <IconBars className="w-6 h-6" />
               </button>
               <Link href="/" className="py-1">
-                Ragtag Archive
+                Arkiv
               </Link>
             </div>
           </div>

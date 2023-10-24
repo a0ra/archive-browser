@@ -32,7 +32,7 @@ const ChannelPage = (props: ChannelPageProps) => {
       <Head>
         <title>{channelName} - Ragtag Archive</title>
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Ragtag Archive" />
+        <meta property="og:site_name" content="Arkiv" />
         <meta property="og:title" content={channelName} />
         <meta property="og:description" content={description} />
         <meta

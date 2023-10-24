@@ -102,7 +102,7 @@ const ChatExplorerPage = (props: ChatExplorerPageProps) => {
   return (
     <PageBase flex>
       <Head>
-        <title>Chat Explorer - Ragtag Archive</title>
+        <title>Chat Explorer - Arkiv</title>
       </Head>
       {!replayData ? (
         <div className="flex flex-1 items-center justify-center">

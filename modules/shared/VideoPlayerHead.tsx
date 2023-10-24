@@ -16,7 +16,7 @@ const VideoPlayerHead = (props: VideoPlayerHeadProps) => {
 
   return (
     <Head>
-      <title>{videoInfo.title} - Ragtag Archive</title>
+      <title>{videoInfo.title} - Arkiv</title>
       <meta name="title" content={videoInfo.title} />
       <meta name="description" content={videoInfo.channel_name} />
       <link rel="canonical" href={canonURL} />

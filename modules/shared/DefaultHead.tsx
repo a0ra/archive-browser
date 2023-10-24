@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 
-const K_SITE_NAME = 'Ragtag Archive';
+const K_SITE_NAME = 'Arkiv';
 const K_SITE_DESCRIPTION = 'Preserving culture, one stream at a time';
 
 type DefaultHeadProps = {

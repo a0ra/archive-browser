@@ -6,7 +6,7 @@ const NotFoundPage = () => {
   return (
     <PageBase>
       <Head>
-        <title>404 - Ragtag Archive</title>
+        <title>404 - Arkiv</title>
       </Head>
       <div>
         <div className="px-4">

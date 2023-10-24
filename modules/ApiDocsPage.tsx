@@ -6,7 +6,7 @@ const ApiDocsPage = () => {
   return (
     <PageBase>
       <Head>
-        <title>API - Ragtag Archive</title>
+        <title>API - Arkiv</title>
       </Head>
       <div className="prose prose-lg prose-dark px-6 py-12">
         <h1>API Documentation</h1>

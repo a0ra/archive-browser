@@ -377,7 +377,7 @@ const VideoPlayer2 = (props: VideoPlayerProps) => {
                 target="_blank"
                 href={'https://archive.ragtag.moe/watch?v=' + videoId}
               >
-                Hosted on <span className="font-bold">Ragtag Archive</span>
+                Hosted on <span className="font-bold">Arkiv</span>
               </a>
             </div>
           )}

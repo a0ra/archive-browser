@@ -21,7 +21,7 @@ const SearchPage = (props: SearchPageProps) => {
   return (
     <PageBase>
       <Head>
-        <title>{q} - Ragtag Archive</title>
+        <title>{q} - Arkiv</title>
       </Head>
       <div>
         {props.results.hits.total.value === 0 ? (

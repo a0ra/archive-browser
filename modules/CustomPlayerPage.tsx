@@ -33,7 +33,7 @@ const CustomPlayerPage = () => {
   return (
     <PageBase>
       <Head>
-        <title>Custom Player - Ragtag Archive</title>
+        <title>Custom Player - Arkiv</title>
       </Head>
       {showPlayer ? (
         <div>

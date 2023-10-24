@@ -43,7 +43,7 @@ export const signFileURLs = (
   // Construct upstream tag, default to `gd:` if not specified
   const upstreamTag = driveBaseFolder.includes(':')
     ? driveBaseFolder
-    : 'gd:' + driveBaseFolder;
+    : 'od' + driveBaseFolder;
 
   files.forEach((file, idx) => {
     // Create the URL if not specified

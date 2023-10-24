@@ -17,22 +17,22 @@ const DefaultHead = (props: DefaultHeadProps) => (
     <meta name="title" content={K_SITE_NAME} />
     <meta name="description" content={K_SITE_DESCRIPTION} />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://archive.ragtag.moe/" />
+    <meta property="og:url" content="https://vt.arkiv.in/" />
     <meta property="og:title" content={K_SITE_NAME} />
     <meta
       property="og:image"
-      content="https://archive.ragtag.moe/favicon.png"
+      content="https://vt.arkiv.in/favicon.png"
     />
     <meta property="og:description" content={K_SITE_DESCRIPTION} />
     <meta property="twitter:card" content="summary" />
-    <meta property="twitter:url" content="https://archive.ragtag.moe/" />
+    <meta property="twitter:url" content="https://vt.arkiv.in/" />
     <meta property="twitter:title" content={K_SITE_NAME} />
     <meta
       property="twitter:image"
-      content="https://archive.ragtag.moe/favicon.png"
+      content="https://vt.arkiv.in/favicon.png"
     />
     <meta property="twitter:description" content={K_SITE_DESCRIPTION} />
-    <meta property="twitter:creator" content="@kitsune_cw" />
+    <meta property="twitter:creator" content="@arkivin" />
   </Head>
 );
 

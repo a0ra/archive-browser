@@ -516,7 +516,7 @@ sync: thresh ${(threshStartSync.current * 1000).toFixed(2)}ms, ${
                 target="_blank"
                 href={'https://archive.ragtag.moe/watch?v=' + videoId}
               >
-                Hosted on <span className="font-bold">Ragtag Archive</span>
+                Hosted on <span className="font-bold">Arkiv</span>
               </a>
             </div>
           )}

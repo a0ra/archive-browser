@@ -176,7 +176,7 @@ const StatusPage = () => {
   return (
     <PageBase>
       <Head>
-        <title>Status Page - Ragtag Archive</title>
+        <title>Status Page - Arkiv</title>
       </Head>
       <div className="max-w-xl mx-auto">
         <div className="px-4 pb-6">

@@ -17,7 +17,7 @@ const ChannelsListPage = (props: ChannelsListPageProps) => {
   return (
     <PageBase>
       <Head>
-        <title>Channels - Ragtag Archive</title>
+        <title>Channels - Arkiv</title>
       </Head>
       <div className="">
         {channels.map((channel, idx) => (

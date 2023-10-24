@@ -44,19 +44,10 @@ const LandingPage = (props: LandingPageProps) => {
             <a
               className="font-bold underline"
               rel="noreferrer noopener nofollow"
-              href="https://www.patreon.com/kitsune_cw"
+              href="https://trakteer.id/arkivin"
               target="_blank"
             >
-              Patreon
-            </a>
-            ,{' '}
-            <a
-              className="font-bold underline"
-              rel="noreferrer noopener nofollow"
-              href="https://ko-fi.com/kitsune_cw"
-              target="_blank"
-            >
-              Ko-fi
+              Trakteer
             </a>
           </div>
         </div>

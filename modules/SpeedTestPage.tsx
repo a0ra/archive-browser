@@ -57,7 +57,7 @@ const SpeedTestPage = () => {
   return (
     <PageBase>
       <Head>
-        <title>Speed Test - Ragtag Archive</title>
+        <title>Speed Test - Arkiv</title>
       </Head>
       <div className="flex flex-col items-center justify-center py-16">
         <div className="flex flex-row items-start font-mono">

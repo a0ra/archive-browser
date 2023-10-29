@@ -23,7 +23,7 @@ const AboutPage = () => {
             rel="noreferrer noopener nofollow"
             href="https://twitter.com/arkivin"
           >
-            @kitsune_cw
+            @arkivin
           </a>
           . For legal inquiries, feel free to contact me through the channels
           above, or send me an email at{' '}

@@ -17,9 +17,8 @@ const AboutPage = () => {
           archived at the highest quality available.
         </p>
         <p>
-          If you have any questions or concerns, feel free to hop on{' '}
           </a>
-          . You can also contact me on Twitter at{' '}
+          . You can contact me on Twitter at{' '}
           <a
             target="_blank"
             rel="noreferrer noopener nofollow"

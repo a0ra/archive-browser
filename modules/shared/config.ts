@@ -69,7 +69,7 @@ export const BULK_INSERT_ROLE = process.env.BULK_INSERT_ROLE;
  * URL where files are served
  */
 export const DRIVE_BASE_URL =
-  process.env.DRIVE_BASE_URL || 'https://content.archive.ragtag.moe';
+  process.env.DRIVE_BASE_URL || 'https://cdn.arkiv.in';
 export const ENABLE_SIGN_URLS = process.env.ENABLE_SIGN_URLS
   ? process.env.ENABLE_SIGN_URLS === 'true'
   : false;

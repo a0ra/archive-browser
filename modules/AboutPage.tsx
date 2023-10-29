@@ -17,7 +17,6 @@ const AboutPage = () => {
           archived at the highest quality available.
         </p>
         <p>
-          </a>
           . You can contact me on Twitter at{' '}
           <a
             target="_blank"

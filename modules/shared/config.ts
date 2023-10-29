@@ -52,7 +52,7 @@ export const TASQ_QUEUE_URL = process.env.TASQ_QUEUE_URL;
  * Open the URL in your browser to see what the data looks like.
  */
 export const STATUS_UPDATES_ENDPOINT =
-  'https://archive-status-updates.ragtag.workers.dev';
+  'https://status-vt.arkiv.in';
 export const WORKER_STATUS_ENDPOINT =
   'https://ragtag-archive-webhook.ragtag.workers.dev';
 

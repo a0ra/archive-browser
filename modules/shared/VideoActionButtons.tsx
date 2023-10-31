@@ -35,6 +35,8 @@ const VideoActionButtons = React.memo(
       getFile(video, '.webm');
     const mkvURL = mkv?.url;
     const mkvSize = mkv?.size || -1;
+    const bqURL = "/dl=1";
+    const modmkvURL = mkvURL + bqURL;
 
     const [fmtVideo, fmtAudio] = video.format_id.split('+');
 
@@ -83,7 +85,7 @@ const VideoActionButtons = React.memo(
           />
         )}
         <div className="relative flex md:flex-row flex-col w-full mt-2">
-          <a href={mkvURL} className={buttonStyle}>
+          <a href={modmkvURL} className={buttonStyle}>
             <IconDownload className="w-4 h-4 mr-3" />
             Download ({videoHeight}p{video.fps}, {formatBytes(mkvSize)})
           </a>

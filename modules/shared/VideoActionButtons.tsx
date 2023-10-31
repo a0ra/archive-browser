@@ -67,7 +67,7 @@ const VideoActionButtons = React.memo(
           : name,
         name,
         size,
-        url: name.endsWith('.mkv') ? url : url + '/dl',
+        url: (!name.endsWith('.mkv') && url) ? url + '/dl' : url,
       }))
       .sort((a, b) => (a.label > b.label ? 1 : -1));
 

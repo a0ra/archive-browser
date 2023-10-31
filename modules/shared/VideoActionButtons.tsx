@@ -64,10 +64,12 @@ const VideoActionButtons = React.memo(
           ? 'Thumbnail (webp)'
           : name.endsWith('.jpg')
           ? 'Thumbnail (jpeg)'
+          : name.endsWith('.mp4')
+          ? 'Video (mp4)'
           : name,
         name,
         size,
-        url: (!name.endsWith('.mkv') && url) ? url + '/dl' : url,
+        url: name.endsWith('.mp4') ? url + '/dl' : url,
       }))
       .sort((a, b) => (a.label > b.label ? 1 : -1));
 

@@ -33,7 +33,7 @@ const VideoActionButtons = React.memo(
       getFile(video, '.mkv') ??
       getFile(video, '.mp4') ??
       getFile(video, '.webm');
-    const mkvURL = mkv?.url;
+    const mkvURL = mkv?.url + "/dl";
     const mkvSize = mkv?.size || -1;
 
     const [fmtVideo, fmtAudio] = video.format_id.split('+');
@@ -67,7 +67,7 @@ const VideoActionButtons = React.memo(
           : name,
         name,
         size,
-        url,
+        url: name.endsWith('.mkv') ? url : url + '/dl',
       }))
       .sort((a, b) => (a.label > b.label ? 1 : -1));
 

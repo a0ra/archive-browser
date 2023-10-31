@@ -83,7 +83,7 @@ const VideoActionButtons = React.memo(
           />
         )}
         <div className="relative flex md:flex-row flex-col w-full mt-2">
-          <a href={${mkvURL}/dl=1} className={buttonStyle}>
+          <a href={mkvURL} className={buttonStyle}>
             <IconDownload className="w-4 h-4 mr-3" />
             Download ({videoHeight}p{video.fps}, {formatBytes(mkvSize)})
           </a>

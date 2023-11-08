@@ -21,4 +21,4 @@ export const formatDate = (date: Date) =>
     year: 'numeric',
   }).format(date);
 
-export const formatBytes = (bytes: number) => prettyBytes(bytes);
+export const formatBytes = (bytes: number) => prettyBytes(bytes, { binary: true });

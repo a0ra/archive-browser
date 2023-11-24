@@ -14,6 +14,7 @@ const metadataTimestampsSchema = Joi.object({
 
 export const metadataSchema = Joi.object({
   video_id: Joi.string().required(),
+  video_id_backup: Joi.string().required(),
   channel_name: Joi.string().required(),
   channel_id: Joi.string().required(),
   upload_date: Joi.string().required(),

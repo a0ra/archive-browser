@@ -10,6 +10,7 @@ export type VideoFile = {
 
 export type VideoMetadata = {
   video_id: string;
+  video_id_backup: string;
   channel_name: string;
   channel_id: string;
   upload_date: string;

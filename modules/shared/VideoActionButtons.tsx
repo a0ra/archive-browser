@@ -46,7 +46,7 @@ const VideoActionButtons = React.memo(
     };
 
     const fileURLs = video.files
-      ?.filter(({ name }) => !name.endsWith('.mkv'))
+      ?.filter(({ name }) => !name.endsWith('.mp4'))
       .map(({ name, size, url }) => ({
         label: name.includes('.f' + fmtVideo + '.')
           ? 'Video only'
@@ -64,12 +64,10 @@ const VideoActionButtons = React.memo(
           ? 'Thumbnail (webp)'
           : name.endsWith('.jpg')
           ? 'Thumbnail (jpeg)'
-          : name.endsWith('.mp4')
-          ? 'Video (mp4)'
           : name,
         name,
         size,
-        url: name.endsWith('.mp4') ? url + '/dl' : url,
+        url,
       }))
       .sort((a, b) => (a.label > b.label ? 1 : -1));
 
@@ -120,7 +118,16 @@ const VideoActionButtons = React.memo(
             className={[buttonStyle, 'md:mr-2'].join(' ')}
           >
             <IconYouTube className="w-4 h-4 mr-3" />
-            Watch on YouTube
+            Original Youtube Link
+          </a>
+          <a
+            href={'https://youtu.be/' + video.video_id_backup}
+            target="_blank"
+            rel="noreferrer noopener"
+            className={[buttonStyle, 'md:mr-2'].join(' ')}
+          >
+            <IconYouTube className="w-4 h-4 mr-3" />
+            Backup Youtube Link
           </a>
           {full && (
             <>
